@@ -884,6 +884,10 @@ html.dark input:-webkit-autofill,
   left: -3.75rem;
 }
 
+.-left-full {
+  left: -100%;
+}
+
 .-right-full {
   right: -100%;
 }
@@ -898,6 +902,14 @@ html.dark input:-webkit-autofill,
 
 .left-1\/2 {
   left: 50%;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-6 {
+  left: 1.5rem;
 }
 
 .right-0 {
@@ -930,6 +942,10 @@ html.dark input:-webkit-autofill,
 
 .top-7 {
   top: 1.75rem;
+}
+
+.right-1\/2 {
+  right: 50%;
 }
 
 .-z-1 {
@@ -2066,6 +2082,10 @@ html.dark input:-webkit-autofill,
   padding-left: 1rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -2080,6 +2100,10 @@ html.dark input:-webkit-autofill,
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-left {
@@ -3840,8 +3864,8 @@ html.dark .portfolio_wrapper .info span {
     position: absolute;
   }
 
-  .md\:right-8 {
-    right: 2rem;
+  .md\:left-8 {
+    left: 2rem;
   }
 
   .md\:right-9 {
@@ -4155,6 +4179,26 @@ html.dark .portfolio_wrapper .info span {
     top: 0.75rem;
   }
 
+  .md\:before\:right-64::before {
+    content: var(--tw-content);
+    right: 16rem;
+  }
+
+  .md\:before\:right-52::before {
+    content: var(--tw-content);
+    right: 13rem;
+  }
+
+  .md\:before\:right-3::before {
+    content: var(--tw-content);
+    right: 0.75rem;
+  }
+
+  .md\:before\:right-32::before {
+    content: var(--tw-content);
+    right: 8rem;
+  }
+
   .md\:before\:h-2::before {
     content: var(--tw-content);
     height: 0.5rem;
@@ -4224,8 +4268,8 @@ html.dark .portfolio_wrapper .info span {
 }
 
 @media (min-width: 1024px) {
-  .lg\:right-13 {
-    right: 3.125rem;
+  .lg\:left-13 {
+    left: 3.125rem;
   }
 
   .lg\:top-11 {
@@ -4336,6 +4380,10 @@ html.dark .portfolio_wrapper .info span {
 
   .xl\:top-1\/2 {
     top: 50%;
+  }
+
+  .xl\:right-4 {
+    right: 1rem;
   }
 
   .xl\:my-8 {
@@ -4547,6 +4595,10 @@ html.dark .portfolio_wrapper .info span {
 
 .\[\&\.is-menu-open\]\:visible.is-menu-open {
   visibility: visible;
+}
+
+.\[\&\.is-menu-open\]\:left-0.is-menu-open {
+  left: 0px;
 }
 
 .\[\&\.is-menu-open\]\:right-0.is-menu-open {
